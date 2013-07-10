@@ -7,6 +7,7 @@
     end
     def new
       new_student = Student.new(parmas)
-      new_student = Student.create
+      student = Student.create
+      house << student
       redirect to 'idnex'
     end
