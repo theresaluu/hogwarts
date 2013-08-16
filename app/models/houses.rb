@@ -1,3 +1,3 @@
 class Houses < ActiveRecord
-  attr_accessor :house_name
+  attr_accessor :house_name, :id
 end
